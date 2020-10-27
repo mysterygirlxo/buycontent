@@ -6,7 +6,7 @@ body{
   background-color: #f0d2bc;
   color: #ffffff;
   background-image: url("blue-snow.png");
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 
 .container{
