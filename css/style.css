@@ -5,6 +5,8 @@ body{
   margin: 0;
   background-color: #f0d2bc;
   color: #ffffff;
+  background-image: url("blue-snow");
+  background-repeat: repeat-y;
 }
 
 .container{
