@@ -150,5 +150,6 @@ header a:hover{
 @media (max-width: 1345px){
   body{
     margin: 0 auto;
+    float: none;
   }
 }
