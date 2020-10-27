@@ -152,4 +152,15 @@ header a:hover{
     margin: 0 auto;
     float: none;
   }
+
+#about img{
+  float: none;
+  margin: 0 auto;
+}
+  #about p{
+    float: left;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
