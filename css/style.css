@@ -1,0 +1,150 @@
+body{
+  font-family: Calibri, Georgia;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  background-color: #f0d2bc;
+  color: #ffffff;
+}
+
+.container{
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  padding-top: 50px;
+  min-height: 70px;
+  font-weight: bold;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+header ul{
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+header li{
+  display: inline;
+  padding: 0 20px 0px 20px;
+}
+
+header #navigation{
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(240, 210, 188, .5);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+header #navigation img{
+  padding: 0px 8px 10px 8px;
+}
+
+header a:hover{
+  color: #d2a97f;
+  font-weight: bold;
+}
+
+#titleinfo{
+  min-height: 150px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.gold{
+  color: #8d674c;
+}
+
+.gold a{
+  text-decoration: none;
+  color: #d2a97f;
+}
+
+#about{
+  width: 75%;
+  min-height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+#about img{
+  max-width: 450px;
+  float: left;
+  margin-top: 70px;
+}
+
+#about p{
+  max-width: 400px;
+  float: right;
+}
+
+.leftseal{
+  margin: 0 -20px 0 0px;
+  z-index:1;
+  position: relative;
+}
+
+.rightseal{
+  margin: 0 0 0 -20px;
+  z-index: 1;
+  position: relative;
+}
+
+.contentboxleft{
+  float: left;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+.contentboxright{
+  max-width: 225px;
+  float: right;
+}
+
+#content{
+  padding-bottom: 50px;
+  font-family: Georgia;
+  float: left;
+  width: 100%;
+  display: inline;
+  margin: 0 auto;
+}
+
+.rightbutton{
+  float: left;
+  background: #8d674c;
+  padding: 5px 19px 5px 19px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+.contentboxright a:hover{
+  color: #d2a97f;
+}
+
+#A{
+  float: left;
+}
+
+#B{
+  float: right;
+}
+
+.leftseal, .rightseal{
+  display: none !important;
+}
+
+@media (max-width)
