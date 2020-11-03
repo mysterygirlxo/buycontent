@@ -192,6 +192,62 @@ header a:hover{
 
 #content{
   width: 100%;
+  @media (max-width: 685px){
+    body{
+      margin: 0 auto;
+    }
+
+  #about img{
+    float: none;
+    margin: 0 auto;
+    max-width: 360px;
+  }
+
+  #about p{
+      float: none;
+      margin: 0 auto;
+      padding-top: 15px;
+      padding-bottom: 54px;
+      max-width: 626px;
+    }
+
+  #content{
+    width: 100%;
+    float: left;
+    }
+  }
+  }
+}
+
+@media (max-width: 685px){
+  body{
+    margin: 0 auto;
+  }
+
+#about img{
+  float: none;
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+#about p{
+    float: none;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 54px;
+    max-width: 626px;
+  }
+
+#content{
+  width: 100%;
   float: left;
   }
+
+.contentboxleft{
+  float: none;
+}
+
+.contentboxright{
+  float: none;
+}
 }
