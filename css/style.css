@@ -146,6 +146,12 @@ header a:hover{
   display: none !important;
 }
 
+#footer{
+  margin: 0 auto;
+  text-align: center;
+  font: bold;
+}
+
 @media (max-width: 1345px){
   body{
     margin: 0 auto;
