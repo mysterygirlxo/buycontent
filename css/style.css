@@ -88,6 +88,7 @@ header a:hover{
 #about p{
   max-width: 400px;
   float: right;
+  padding-top: 50px;
 }
 
 .leftseal{
